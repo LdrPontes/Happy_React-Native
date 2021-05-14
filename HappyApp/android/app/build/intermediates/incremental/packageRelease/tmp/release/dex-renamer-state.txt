@@ -1,0 +1,4 @@
+#Fri May 14 09:52:25 BRT 2021
+base.0=/Users/ldrpontes/Documents/ReactNative/MyProjects/Happy/HappyApp/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -15,11 +15,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* HappyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HappyAppTests.m */; };
-		704BEF8D3FF34380F1010C39 /* libPods-HappyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C713F094AF7FA95C7EF10D43 /* libPods-HappyApp.a */; };
+		75A01AFEE3636FBDB3BA5F76 /* libPods-HappyApp-HappyAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB492017D5FCC8FE23A045D1 /* libPods-HappyApp-HappyAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		98132309F127B99760DC43B3 /* libPods-HappyApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E80A66C8024C371E6927BF /* libPods-HappyApp-tvOS.a */; };
-		A8313ED5CEEAB424ED5436DB /* libPods-HappyApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC4302E09E039C6871885E8 /* libPods-HappyApp-tvOSTests.a */; };
-		E55DAA0352EDF75C327A8B1C /* libPods-HappyApp-HappyAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE23509EEA5A61CD6777D03 /* libPods-HappyApp-HappyAppTests.a */; };
+		83CC622DCB2202A01B62846E /* libPods-HappyApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B316E504FD099986371A522B /* libPods-HappyApp-tvOSTests.a */; };
+		C3E00A53664E4DE6E3BB0F0C /* libPods-HappyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D57ED6E44593D4F85FC09583 /* libPods-HappyApp.a */; };
+		C783A3F409308004E309CCDE /* libPods-HappyApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF921CC491AD5683EF1512C /* libPods-HappyApp-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,23 +50,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HappyApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HappyApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HappyApp/main.m; sourceTree = "<group>"; };
-		2BC4302E09E039C6871885E8 /* libPods-HappyApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* HappyApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HappyApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* HappyApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HappyApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34CD8A6FA8AA58F6D5EA82A9 /* Pods-HappyApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyApp-tvOSTests/Pods-HappyApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		664988CC4264B9944107C5A5 /* Pods-HappyApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-HappyApp-tvOS/Pods-HappyApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		679221D389203BF9EEB68E39 /* Pods-HappyApp-HappyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-HappyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyApp-HappyAppTests/Pods-HappyApp-HappyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6EE23509EEA5A61CD6777D03 /* libPods-HappyApp-HappyAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyApp-HappyAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9F1E76AB4134658D891975 /* Pods-HappyApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-HappyApp-tvOSTests/Pods-HappyApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2EFF60E164FF3DD77A1EC67A /* Pods-HappyApp-HappyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-HappyAppTests.release.xcconfig"; path = "Target Support Files/Pods-HappyApp-HappyAppTests/Pods-HappyApp-HappyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		39C607D1FF19AE5E64A182B2 /* Pods-HappyApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyApp-tvOSTests/Pods-HappyApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C11DA6BCAAC73F7DC7A8D89 /* Pods-HappyApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-HappyApp-tvOS/Pods-HappyApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5C452383438A0BA69195FE64 /* Pods-HappyApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-HappyApp-tvOS/Pods-HappyApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5EF921CC491AD5683EF1512C /* libPods-HappyApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		601A9FE25C92BB5F77B3C262 /* Pods-HappyApp-HappyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-HappyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyApp-HappyAppTests/Pods-HappyApp-HappyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HappyApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A82A0331DFAEBB5510A37874 /* Pods-HappyApp-HappyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-HappyAppTests.release.xcconfig"; path = "Target Support Files/Pods-HappyApp-HappyAppTests/Pods-HappyApp-HappyAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		A8E80A66C8024C371E6927BF /* libPods-HappyApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C713F094AF7FA95C7EF10D43 /* libPods-HappyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9A7A9F4E2A2203EB8E121D5 /* Pods-HappyApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-HappyApp-tvOSTests/Pods-HappyApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		CA0AA660DA9CE06139911AAC /* Pods-HappyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp.debug.xcconfig"; path = "Target Support Files/Pods-HappyApp/Pods-HappyApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D5A524FFE3E688FD49402881 /* Pods-HappyApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-HappyApp-tvOS/Pods-HappyApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DDBA580630BC4837AF7C3F67 /* Pods-HappyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp.release.xcconfig"; path = "Target Support Files/Pods-HappyApp/Pods-HappyApp.release.xcconfig"; sourceTree = "<group>"; };
+		B1603F1859E872A68F68018C /* Pods-HappyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp.release.xcconfig"; path = "Target Support Files/Pods-HappyApp/Pods-HappyApp.release.xcconfig"; sourceTree = "<group>"; };
+		B316E504FD099986371A522B /* libPods-HappyApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57ED6E44593D4F85FC09583 /* libPods-HappyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB492017D5FCC8FE23A045D1 /* libPods-HappyApp-HappyAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HappyApp-HappyAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F414D540B06386DC0A87B99A /* Pods-HappyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyApp.debug.xcconfig"; path = "Target Support Files/Pods-HappyApp/Pods-HappyApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E55DAA0352EDF75C327A8B1C /* libPods-HappyApp-HappyAppTests.a in Frameworks */,
+				75A01AFEE3636FBDB3BA5F76 /* libPods-HappyApp-HappyAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704BEF8D3FF34380F1010C39 /* libPods-HappyApp.a in Frameworks */,
+				C3E00A53664E4DE6E3BB0F0C /* libPods-HappyApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98132309F127B99760DC43B3 /* libPods-HappyApp-tvOS.a in Frameworks */,
+				C783A3F409308004E309CCDE /* libPods-HappyApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8313ED5CEEAB424ED5436DB /* libPods-HappyApp-tvOSTests.a in Frameworks */,
+				83CC622DCB2202A01B62846E /* libPods-HappyApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,15 +136,31 @@
 			name = HappyApp;
 			sourceTree = "<group>";
 		};
+		1C6C43D2017DB593718731B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F414D540B06386DC0A87B99A /* Pods-HappyApp.debug.xcconfig */,
+				B1603F1859E872A68F68018C /* Pods-HappyApp.release.xcconfig */,
+				601A9FE25C92BB5F77B3C262 /* Pods-HappyApp-HappyAppTests.debug.xcconfig */,
+				2EFF60E164FF3DD77A1EC67A /* Pods-HappyApp-HappyAppTests.release.xcconfig */,
+				3C11DA6BCAAC73F7DC7A8D89 /* Pods-HappyApp-tvOS.debug.xcconfig */,
+				5C452383438A0BA69195FE64 /* Pods-HappyApp-tvOS.release.xcconfig */,
+				39C607D1FF19AE5E64A182B2 /* Pods-HappyApp-tvOSTests.debug.xcconfig */,
+				2D9F1E76AB4134658D891975 /* Pods-HappyApp-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				C713F094AF7FA95C7EF10D43 /* libPods-HappyApp.a */,
-				6EE23509EEA5A61CD6777D03 /* libPods-HappyApp-HappyAppTests.a */,
-				A8E80A66C8024C371E6927BF /* libPods-HappyApp-tvOS.a */,
-				2BC4302E09E039C6871885E8 /* libPods-HappyApp-tvOSTests.a */,
+				D57ED6E44593D4F85FC09583 /* libPods-HappyApp.a */,
+				DB492017D5FCC8FE23A045D1 /* libPods-HappyApp-HappyAppTests.a */,
+				5EF921CC491AD5683EF1512C /* libPods-HappyApp-tvOS.a */,
+				B316E504FD099986371A522B /* libPods-HappyApp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* HappyAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				FA1AD5050F4568E762E056F2 /* Pods */,
+				1C6C43D2017DB593718731B4 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA1AD5050F4568E762E056F2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CA0AA660DA9CE06139911AAC /* Pods-HappyApp.debug.xcconfig */,
-				DDBA580630BC4837AF7C3F67 /* Pods-HappyApp.release.xcconfig */,
-				679221D389203BF9EEB68E39 /* Pods-HappyApp-HappyAppTests.debug.xcconfig */,
-				A82A0331DFAEBB5510A37874 /* Pods-HappyApp-HappyAppTests.release.xcconfig */,
-				D5A524FFE3E688FD49402881 /* Pods-HappyApp-tvOS.debug.xcconfig */,
-				664988CC4264B9944107C5A5 /* Pods-HappyApp-tvOS.release.xcconfig */,
-				34CD8A6FA8AA58F6D5EA82A9 /* Pods-HappyApp-tvOSTests.debug.xcconfig */,
-				C9A7A9F4E2A2203EB8E121D5 /* Pods-HappyApp-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HappyAppTests" */;
 			buildPhases = (
-				6DC9FEB72F3B80D9D0EAD8D1 /* [CP] Check Pods Manifest.lock */,
+				EAC7EFD6BDD9615449D68DE7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A92FC2FA773A367502B65DA2 /* [CP] Copy Pods Resources */,
+				DD022295BD36E49557C63F7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HappyApp" */;
 			buildPhases = (
-				37BA331D1E189EA789B6586D /* [CP] Check Pods Manifest.lock */,
+				63C93E4EB0CB1C76A2C82125 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				D23F0F13EDF3097D0D33D4E5 /* [CP] Copy Pods Resources */,
+				4355330C5E0C498EBD66E041 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HappyApp-tvOS" */;
 			buildPhases = (
-				11026C554C237600B45BC19C /* [CP] Check Pods Manifest.lock */,
+				AFA599D55CC5AD1FB3724C10 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "HappyApp-tvOSTests" */;
 			buildPhases = (
-				6C08AAF77A81423225CE6F35 /* [CP] Check Pods Manifest.lock */,
+				0EF1031AE4D2EB0E80F7AFDF /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,65 +377,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		11026C554C237600B45BC19C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HappyApp-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		37BA331D1E189EA789B6586D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HappyApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C08AAF77A81423225CE6F35 /* [CP] Check Pods Manifest.lock */ = {
+		0EF1031AE4D2EB0E80F7AFDF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +399,101 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6DC9FEB72F3B80D9D0EAD8D1 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4355330C5E0C498EBD66E041 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyApp/Pods-HappyApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyApp/Pods-HappyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63C93E4EB0CB1C76A2C82125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA599D55CC5AD1FB3724C10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyApp-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD022295BD36E49557C63F7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyApp-HappyAppTests/Pods-HappyApp-HappyAppTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyApp-HappyAppTests/Pods-HappyApp-HappyAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC7EFD6BDD9615449D68DE7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -477,42 +513,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A92FC2FA773A367502B65DA2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HappyApp-HappyAppTests/Pods-HappyApp-HappyAppTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyApp-HappyAppTests/Pods-HappyApp-HappyAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D23F0F13EDF3097D0D33D4E5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HappyApp/Pods-HappyApp-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyApp/Pods-HappyApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -608,7 +608,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 679221D389203BF9EEB68E39 /* Pods-HappyApp-HappyAppTests.debug.xcconfig */;
+			baseConfigurationReference = 601A9FE25C92BB5F77B3C262 /* Pods-HappyApp-HappyAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +631,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A82A0331DFAEBB5510A37874 /* Pods-HappyApp-HappyAppTests.release.xcconfig */;
+			baseConfigurationReference = 2EFF60E164FF3DD77A1EC67A /* Pods-HappyApp-HappyAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +651,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA0AA660DA9CE06139911AAC /* Pods-HappyApp.debug.xcconfig */;
+			baseConfigurationReference = F414D540B06386DC0A87B99A /* Pods-HappyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +674,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDBA580630BC4837AF7C3F67 /* Pods-HappyApp.release.xcconfig */;
+			baseConfigurationReference = B1603F1859E872A68F68018C /* Pods-HappyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5A524FFE3E688FD49402881 /* Pods-HappyApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 3C11DA6BCAAC73F7DC7A8D89 /* Pods-HappyApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 664988CC4264B9944107C5A5 /* Pods-HappyApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 5C452383438A0BA69195FE64 /* Pods-HappyApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34CD8A6FA8AA58F6D5EA82A9 /* Pods-HappyApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 39C607D1FF19AE5E64A182B2 /* Pods-HappyApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +778,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9A7A9F4E2A2203EB8E121D5 /* Pods-HappyApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 2D9F1E76AB4134658D891975 /* Pods-HappyApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

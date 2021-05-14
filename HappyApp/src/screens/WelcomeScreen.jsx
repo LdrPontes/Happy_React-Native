@@ -12,7 +12,7 @@ function StartScreen({ name }) {
 
       <View style={styles.content}>
         <Text style={styles.projectLabel} bold>
-          🌲Eryn
+          🌲Leandro
         </Text>
 
         <Text heading bold>
