@@ -1,2 +1,2 @@
-export { default as StartScreen } from './StartScreen';
-export { default as WelcomeScreen } from './WelcomeScreen';
+export { default as SplashScreen } from './SplashScreen';
+export { default as MainScreen } from './MainScreen';

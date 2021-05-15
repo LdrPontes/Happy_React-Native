@@ -1,0 +1,6 @@
+module Pods_HappyApp_HappyAppTests {
+  umbrella header "Pods-HappyApp-HappyAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

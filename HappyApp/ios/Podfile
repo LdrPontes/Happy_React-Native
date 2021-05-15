@@ -4,8 +4,9 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '10.0'
 
 target 'HappyApp' do
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
   config = use_native_modules!
-
   use_react_native!(:path => config["reactNativePath"])
 
   target 'HappyAppTests' do
@@ -23,6 +24,14 @@ target 'HappyApp' do
   # end
 end
 
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+   target.build_configurations.each do |config|
+    config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0'
+   end
+  end
+end
+
 target 'HappyApp-tvOS' do
   # Pods for HappyApp-tvOS
 
@@ -31,3 +40,4 @@ target 'HappyApp-tvOS' do
     # Pods for testing
   end
 end
+
