@@ -6,7 +6,7 @@ _Describe your project here_
 
 ## Development
 
-- Open a terminal and run
+- Open a terminal and run test
 
 ```sh
 $ yarn start
